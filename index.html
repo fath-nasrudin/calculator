@@ -13,49 +13,48 @@
 <body>
   <div class="main-container">
     <div class="calculator">
-      <div class="display">2+3*5/4-3</div>
+      <div id="display" class="display">2+3*5/4-3</div>
       <div class="buttons">
 
         <!-- row 1 -->
         <div class="row">
           <button id="clear">AC</button>
-          <button id="back"><-</button>
+          <button id="back" value="backspace">&larr;</button>
           <button class="none"> </button>
-          <button id="/" class="operator">/</button>
+          <button id="/" class="operator" value="/">/</button>
         </div>
 
         <!-- row 2 -->
         <div class="row">
-          <button id="7" class="numb">7</button>
-          <button id="8" class="numb">8</button>
-          <button id="9" class="numb">9</button>
-          <button id="*" class="operator">X</button>
-
+          <button id="7" class="numb" value="7">7</button>
+          <button id="8" class="numb"  value="8">8</button>
+          <button id="9" class="numb"  value="9">9</button>
+          <button id="*" class="operator" value="*">*</button>
         </div>
         
         <!-- row 3 -->
         <div class="row">
-          <button id="4" class="numb">4</button>
-          <button id="5" class="numb">5</button>
-          <button id="6" class="numb">6</button>
-          <button id="-" class="operator">-</button>
+          <button id="4" class="numb"  value="4">4</button>
+          <button id="5" class="numb"  value="5">5</button>
+          <button id="6" class="numb"  value="6">6</button>
+          <button id="-" class="operator" value="-">-</button>
         </div>
         
         <!-- row 4 -->
         <div class="row">
-          <button id="1" class="numb">1</button>
-          <button id="2" class="numb">2</button>
-          <button id="3" class="numb">3</button>
-          <button id="+" class="operator">+</button>
+          <button id="1" class="numb"  value="1">1</button>
+          <button id="2" class="numb"  value="2">2</button>
+          <button id="3" class="numb"  value="3">3</button>
+          <button id="+" class="operator" value="+">+</button>
         </div>
 
 
         <!-- row 5 -->
         <div class="row">
           <button class="none"> </button>
-          <button id="1" class="numb">0</button>
-          <button id="." class="numb">.</button>
-          <button id="=" class="operator equal">=</button>
+          <button id="1" class="numb"  value="0">0</button>
+          <button id="dot" class="numb"  value=".">.</button>
+          <button id="equal" class="equal" value="=">=</button>
         </div>
   
       </div>
