@@ -130,4 +130,5 @@ const calculate = (arr) => {
 
 // On First Load
 setDisplayValue(display.value);
+document.querySelector('.year-display').textContent = new Date().getFullYear();
 

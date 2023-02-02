@@ -17,7 +17,7 @@ body {
 
 .main-container {
   min-height: 100vh;
-  background-color: rgb(232,232,232);
+  background-color: rgb(24, 19, 42);
   color: white;
 }
 /* General End */
@@ -25,8 +25,38 @@ body {
 /* Layout Start */
 .main-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.header,
+.footer {
+  flex: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer {
+  min-height: 50px;
+
+  font-weight: 700;
+}
+
+.footer a {
+  text-decoration: none;
+  color: orange;
+}
+
+.body {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .calculator {
@@ -35,6 +65,7 @@ body {
   border: 3px solid white;
   background-color: rgb(34,37,45);
   border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.283) 0px 20px 100px -20px, rgba(255, 255, 255, 0.3) 0px 10px 20px -30px, rgba(126, 171, 194, 0.135) 0px -2px 6px 0px inset;
 
   display: flex;
   flex-direction: column;
